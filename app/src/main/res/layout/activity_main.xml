@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Activites.MainActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/moon2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="TRUSTED"
+        android:textSize="45dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="WEATHER"
+        android:textSize="45dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="FORECAST"
+        android:textSize="45dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Get to know your weather maps \nand radar precipitation forecast"
+        android:textColor="#B1A5A5"
+        android:textSize="18dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:background="@drawable/button"
+        android:text="GET STARTED"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_extrabold"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:id="@+id/Startbutton"/>
+
+</LinearLayout>

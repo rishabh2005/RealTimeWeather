@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activites.Home_Screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="City List"
+        android:textColor="@color/white"
+        android:textSize="38dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Light rain for the next hour"
+        android:textColor="#ADA7A7"
+        android:textSize="18dp"/>
+
+    <SearchView
+        android:layout_width="320dp"
+        android:layout_height="42dp"
+        android:background="@drawable/searchbar"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/SearchBar"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@color/white"
+        android:hint="Search for a city or airpot"
+        android:textColorHint="@color/white"
+        android:paddingLeft="0dp"
+        android:inputType="text"
+        android:textSize="15dp"
+        android:fontFamily="@font/inter_medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your City"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:id="@+id/BikanerCard"
+        android:background="@drawable/card"
+        android:layout_marginLeft="30dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sun1"
+            android:layout_marginTop="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bikaner"
+            android:id="@+id/City"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="15dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04:22 AM"
+            android:id="@+id/Time"
+            android:textSize="10dp"
+            android:fontFamily="@font/inter_medium"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="80dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light rain forecasted"
+
+            android:layout_marginTop="70dp"
+            android:textSize="12dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12&#176;"
+            android:id="@+id/temperature"
+            android:layout_marginTop="20dp"
+            android:textSize="26dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginLeft="220dp"
+            android:textColor="@color/black"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorite List "
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        app:cardBackgroundColor="#202020"
+        android:background="@drawable/card"
+        android:layout_marginLeft="30dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sun2"
+            android:layout_marginTop="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USA"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/text2"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04:22 AM"
+            android:id="@+id/Time1"
+            android:textSize="10dp"
+            android:fontFamily="@font/inter_medium"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="80dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light rain forecasted"
+            android:layout_marginTop="70dp"
+            android:textSize="12dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12&#176;"
+            android:id="@+id/temperature2"
+            android:layout_marginTop="20dp"
+            android:textSize="26dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginLeft="220dp"
+            android:textColor="@color/white"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        app:cardBackgroundColor="#202020"
+        android:background="@drawable/card"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sun3"
+            android:layout_marginTop="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="California"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="15dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04:22 AM"
+            android:id="@+id/Time2"
+            android:textSize="10dp"
+            android:fontFamily="@font/inter_medium"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="80dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light rain forecasted"
+            android:layout_marginTop="70dp"
+            android:textSize="12dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12&#176;"
+            android:layout_marginTop="20dp"
+            android:textSize="26dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginLeft="220dp"
+            android:textColor="@color/white"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        app:cardBackgroundColor="#202020"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/card"
+        android:layout_marginLeft="30dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/moon"
+            android:layout_marginTop="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Banglore"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="15dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04:22 AM"
+            android:id="@+id/Time3"
+            android:textSize="10dp"
+            android:fontFamily="@font/inter_medium"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="80dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light rain forecasted"
+            android:layout_marginTop="70dp"
+            android:textSize="12dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12&#176;"
+            android:layout_marginTop="20dp"
+            android:textSize="26dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginLeft="220dp"
+            android:textColor="@color/white"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>

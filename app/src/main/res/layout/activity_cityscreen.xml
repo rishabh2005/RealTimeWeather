@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".Activites.Cityscreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/card">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bikaner"
+            android:id="@+id/City"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:textSize="28dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="46&#176;"
+            android:id="@+id/temperature"
+            android:textSize="75dp"
+            android:fontFamily="@font/poppins_extrabold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mostly Clear"
+            android:id="@+id/Sky"
+            android:textColor="@color/black"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="225dp"
+            android:fontFamily="@font/inter_medium"
+            android:textSize="20dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/sun"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="100dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H : 25&#176;"
+            android:id="@+id/H"
+            android:textColor="@color/black"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="275dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="W : 17&#176;"
+            android:id="@+id/W"
+            android:textColor="@color/black"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="275dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        app:cardBackgroundColor="#202020"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/card"
+        android:layout_marginLeft="30dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/sun2"
+            android:layout_marginTop="0dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/moon"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="180dp"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/moon2"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="180dp"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/sun1"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="180dp"/>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/sun2"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="180dp"/>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/sun"
+            android:layout_marginTop="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10-DAY FORECAST"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="15dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04:22 AM"
+            android:id="@+id/Time1"
+            android:textSize="10dp"
+            android:fontFamily="@font/inter_medium"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="80dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tODAY"
+            android:layout_marginTop="90dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUNDAY"
+            android:layout_marginTop="140dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MONDAY"
+            android:layout_marginTop="190dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TUESDAY"
+            android:layout_marginTop="240dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
