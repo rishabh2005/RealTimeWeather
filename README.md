@@ -1,0 +1,5 @@
+![Alt text for the image](https://github.com/rishabh2005/RealTimeWeather/blob/master/Screenshot%202024-05-29%20141740.png)
+![Alt text for the image](https://github.com/rishabh2005/RealTimeWeather/blob/master/Screenshot%202024-05-29%20141804.png)
+![Alt text for the image](https://github.com/rishabh2005/RealTimeWeather/blob/master/Screenshot%202024-05-29%20142812.png)
+![Alt text for the image](https://github.com/rishabh2005/RealTimeWeather/blob/master/Screenshot%202024-05-29%20142856.png)
+![Alt text for the image](https://github.com/rishabh2005/RealTimeWeather/blob/master/Screenshot%202024-05-29%20142920.png)
